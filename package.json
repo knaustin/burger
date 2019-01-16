@@ -1,0 +1,27 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "A resturant application where the user creates burgers and eats them. Made using Javascript, Express, Handlebars, HTML, Bootstrap and CSS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knaustin/burger.git"
+  },
+  "author": "Kristen N. Austin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knaustin/burger/issues"
+  },
+  "homepage": "https://github.com/knaustin/burger#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12",
+    "mysql": "^2.16.0"
+  }
+}
